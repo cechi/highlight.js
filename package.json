@@ -1,5 +1,5 @@
 {
-  "name": "highlight.js-tsql",
+  "name": "highlightjs-tsql",
   "description": "Syntax highlighting for T-SQL.",
   "keywords": [
     "highlight",
@@ -7,20 +7,19 @@
     "T-SQL",
     "sql"
   ],
-  "homepage": "https://github.com/red-gate/highlight.js/",
+  "homepage": "https://github.com/cechi/highlight.js/",
   "version": "1.0.4",
   "author": {
-    "name": "Redgate Software",
-    "email": "support@red-gate.com"
+    "name": "cechi"
   },
   "contributors": [],
   "bugs": {
-    "url": "https://github.com/red-gate/highlight.js/issues"
+    "url": "https://github.com/cechi/highlight.js/issues"
   },
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "git://github.com/red-gate/highlight.js.git"
+    "url": "git://github.com/cechi/highlight.js.git"
   },
   "main": "./lib/index.js",
   "scripts": {
@@ -33,7 +32,8 @@
   },
   "files": [
     "dist/highlight.min.js",
-    "dist/ssms.min.css"
+    "dist/ssms.min.css",
+    "dist/vs.min.css"
   ],
   "engines": {
     "node": "*"
