@@ -27,8 +27,8 @@
     "mocha": "mocha",
     "test": "mocha --globals document test",
     "test-browser": "mocha --globals document test/browser",
-    "build": "node tools/build.js tsql",
-    "postbuild": "cpy ./build/highlight.pack.js ./dist/ --rename=highlight.min.js && cpy ./build/demo/styles/ssms.css ./dist/ --rename=ssms.min.css",
+    "build": "node tools/build.js tsql xml htmlbars javascript",
+    "postbuild": "cpy ./build/highlight.pack.js ./dist/ --rename=highlight.min.js && cpy ./build/demo/styles/ssms.css ./dist/ --rename=ssms.min.css && cpy ./build/demo/styles/vs.css ./dist/ --rename=vs.min.css",
     "prepare": "npm run build"
   },
   "files": [
